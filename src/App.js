@@ -12,6 +12,7 @@ import Services from "./Services/Services.jsx";
 import WorkerDetails from "./Worker-Page/worker.js";
 import ContactUs from "./Contact-Us/ContactUs.js";
 import AboutUs from "./About-Us/AboutUs.js";
+import Tourist from "./Tourist-Places/Tourist.js";
 
 function App() {
   return (
@@ -53,6 +54,14 @@ function App() {
               </>
             }
           />
+          <Route path ="/tourist" element={
+          <>
+          <Navbar/>
+          <Tourist/>
+          <Footer/>
+          </> } >
+          </Route>
+          
           <Route
             path="contactus"
             exact
