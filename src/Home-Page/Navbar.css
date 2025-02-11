@@ -10,7 +10,7 @@
 .navbar .container {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 .navbar .container image {
