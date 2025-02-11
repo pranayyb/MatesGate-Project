@@ -84,6 +84,17 @@ function App() {
               </>
             }
           />
+          <Route
+            path="tourist"
+            exact
+            element={
+              <>
+                <Navbar />
+                <Tourist />
+                <Footer />
+              </>
+            }
+          />
           
         </Routes>
       </BrowserRouter>
